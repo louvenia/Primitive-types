@@ -1,21 +1,26 @@
 # Primitive-types
-Изучение примитивных типов, строк и массивов, выполняя небольшие проекты, представленные ниже.
+Выполнение небольших проектов для изучения примитивных типов, строк и массивов.
 
 ## Introduction
 - Для написания программ использовалась версия Java 8.
 - Отладка кода воспроизводилась на Intellij IDEA CE.
 - Правила форматирования кода соответствуют общепринятым стандартам [Oracle](https://www.oracle.com/java/technologies/javase/codeconventions-namingconventions.html).
 
+## Contents
+1. [Exercise 00](#exercise-00)
+2. [Exercise 01](#exercise-01)
+3. [Exercise 02](#exercise-02)
+4. [Exercise 03](#exercise-03)
+5. [Exercise 04](#exercise-04)
+6. [Exercise 05](#exercise-05)
+
 ### Exercise 00
 
-|Exercise 00:||
-|------|------|
-| Turn-in directory | ex00 |
-| Files to turn-in |	Program.java |
-| **Allowed** | |
-| Input/Output | System.out|
-| Types |	Primitive types |
-| Operators |	Standard operations of primitive types|
+- Программа расположена в директории: ex00;
+- Файл для сдачи: Program.java;
+- Ввод/Вывод: System.out;
+- Тип: Примитивные;
+- Операторы: Стандартные операторы для примитивных типов.
 
 Написала программу, которая вычисляет сумму цифр шестизначного целого числа (значение числа задается непосредственно в коде путем явной инициализации переменной числа).
 
@@ -27,14 +32,11 @@ $ Java Program
 
 ### Exercise 01
 
-|Exercise 01:||
-|------|------|
-| Turn-in directory |	ex01 |
-| Files to turn-in |	Program.java |
-| **Allowed** | |
-|Input/Output	| System.out, System.err, Scanner(System.in) |
-| Types |	Primitive types |
-| Operators |	Standard operations of primitive types, conditions, loops |
+- Программа расположена в директории: ex01;
+- Файл для сдачи: Program.java;
+- Ввод/Вывод: System.out, System.err, Scanner(System.in);
+- Тип: Примитивные;
+- Операторы: Стандартные операторы для примитивных типов, условия и циклы.
 
 Написана программа, которая определяет, является ли входное число простым. Простое число — это число, у которого нет других делителей, кроме самого числа и 1.
 
@@ -66,14 +68,11 @@ $ java Program
 
 ### Exercise 02
 
-|Exercise 02:||
-|------|------|
-Turn-in directory |	ex02
-Files to turn-in |	Program.java
-**Allowed**
-Input/Output |	System.out, System.err, Scanner(System.in)
-Types |	Primitive types
-Operators |	Standard operations of primitive types, conditions, loops
+- Программа расположена в директории: ex02;
+- Файл для сдачи: Program.java;
+- Ввод/Вывод: System.out, System.err, Scanner(System.in);
+- Тип: Примитивные;
+- Операторы: Стандартные операторы для примитивных типов, условия и циклы.
 
 Написана программа, считающая запросы, связанные с приготовлением кофе, которые делают пользователи нашей поисковой системы в определенный момент. Понятно, что последовательность поисковых запросов бесконечна. Выход есть — обрабатывать поток запросов.
 
@@ -94,15 +93,13 @@ $ java Program
 ```
 
 ### Exercise 03
-Exercise 03:||
----|---
-Turn-in directory |	ex03
-Files to turn-in |	Program.java
-**Allowed**
-Input/Output | System.out, System.err, Scanner(System.in)
-Types |	Primitive types, String
-Operators	| Standard operations of primitive types, conditions, loops
-Methods |	String::equals
+
+- Программа расположена в директории: ex03;
+- Файл для сдачи: Program.java;
+- Ввод/Вывод: System.out, System.err, Scanner(System.in);
+- Тип: Примитивные, String;
+- Операторы: Стандартные операторы для примитивных типов, условия и циклы;
+- Методы: String::equals.
 
 Написана программа, визуализирующая прогресс учащихся в виде диаграммы, показывающей изменения успеваемости учащегося за несколько недель.
 
@@ -133,15 +130,13 @@ Week 4 ====>
 ```
 
 ### Exercise 04
-Exercise 04:||
----|---
-Turn-in directory	| ex04
-Files to turn-in |	Program.java
-**Allowed**
-Input/Output |	System.out, System.err, Scanner(System.in)
-Types | Primitive types, String, arrays
-Operators	| Standard operations of primitive types, conditions, loops
-Methods	| String::equals, String::toCharArray, String::length
+
+- Программа расположена в директории: ex04;
+- Файл для сдачи: Program.java;
+- Ввод/Вывод: System.out, System.err, Scanner(System.in);
+- Тип: Примитивные, String, массивы;
+- Операторы: Стандартные операторы для примитивных типов, условия и циклы;
+- Методы: String::equals, String::toCharArray, String::length.
 
 Реализована программа для подсчета вхождений символов в текст.
 
@@ -177,15 +172,12 @@ $ java Program
 
 ### Exercise 05
 
-Exercise 05:||
----|---
-Turn-in directory	| ex05
-Files to turn-in |Program.java
-**Allowed**
-Input/Output | System.out, System.err, Scanner(System.in)
-Types |	Primitive types, String, arrays
-Operators	| Standard operations of primitive types, conditions, loops
-Methods |	String::equals, String::toCharArray, String::length
+- Программа расположена в директории: ex05;
+- Файл для сдачи: Program.java;
+- Ввод/Вывод: System.out, System.err, Scanner(System.in);
+- Тип: Примитивные, String, массивы;
+- Операторы: Стандартные операторы для примитивных типов, условия и циклы;
+- Методы: String::equals, String::toCharArray, String::length.
 
 Написана программа, визуализирующая расписание занятий для списка учеников.
 
